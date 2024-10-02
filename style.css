@@ -1,0 +1,64 @@
+body{
+     background-color: #efefef;
+     font-family: "montserrat",sens-serif;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transtion: 0.5s;
+    -o-transition: 0.5s;
+}
+.container h1{
+    color: #560bad;
+
+}
+.container header{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    margin-top: 50px;
+} 
+.container header .shopping{
+    position: relative;
+    text-align: right;
+}
+.shopping i{
+    font-size: 3rem;
+    color: #560bad;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transtion: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+}
+.shopping i:hover{
+    color: #6f20ca;
+}
+.shopping span{
+    background: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 10px ;
+}
+.container .list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+.card{
+     
+}
